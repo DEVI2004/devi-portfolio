@@ -1,0 +1,80 @@
+
+
+.login{
+    background: white;
+    padding: 40px;
+    min-height: 75vh;
+}
+
+.login h2{
+    color:#01527A;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.login-center{
+    max-width:400px;
+    margin: 0 auto;
+}
+
+.login-center form{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 2px 1px #01527A ;
+    padding: 20px;
+}
+
+.login-center form p{
+    margin-bottom: 10px;
+    text-align: center;
+    color: #01527A;
+    letter-spacing: 0.1rem;
+}
+
+.login-center form label{
+    margin-bottom: 5px;
+    letter-spacing: 0.2rem;
+    color: #01527A;
+}
+
+.login-center form input{
+    padding: 7px;
+    border: 1px solid #01527A;
+    outline: none;
+}
+
+.login-center form input:nth-of-type(1){
+    margin-bottom: 10px;
+}
+
+.login-center .login-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-center button{
+    margin-top: 15px;
+    padding: 5px;
+    background: #01527A;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(230,227,233) ;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+    width: 160px;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+}
+
+
+.login-center button:hover{
+
+    background: #dfebf1;
+    color: rgb(64, 61, 61);
+    
+}
+
+
+

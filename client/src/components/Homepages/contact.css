@@ -1,0 +1,119 @@
+
+
+.contactForm-center{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.contact_form form{
+    margin-top: 15px;
+    width:100%;
+    box-shadow: 0 0 2px 1px black;
+    background-color: #01527A;
+    /* padding: 15px 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 19px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact_form form input, .contact_form form textarea{
+    margin-bottom: 10px;
+    padding: 7px;
+    border: 1px solid black;
+}
+
+.contact_form button{
+    margin-top: 15px;
+    text-align: center;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    padding: 10px 10px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+    width: 160px;
+    border: 1px solid black;
+}
+
+.contact_form form p{
+    margin-bottom: 10px;
+    text-align: center;
+    color:#dfebf1;
+    letter-spacing: 0.1rem;
+}
+
+.contact_form form label{
+    margin-bottom: 5px;
+    letter-spacing: 0.2rem;
+    color:#dfebf1;
+}
+
+.contact-info{
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.contact-info h4{
+    color: rgb(64, 61, 61);
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.contact-info img{
+    width:100%;
+}
+
+button .load img{
+    width: 60px;
+    color: black;
+}
+
+@media screen and (min-width : 664px) {
+    .contactForm-center{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .contact_form{
+        flex: 0 0 50%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info{
+        flex: 1;
+        margin-bottom: 0;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width : 664px) {
+    .contactForm-center{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        
+    }
+    .contact_form{
+        flex: 0 0 600px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info{
+        flex: 0 0 600px;
+        margin-bottom: 0;
+        align-self: center;
+    }
+}

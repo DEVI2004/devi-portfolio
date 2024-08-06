@@ -1,0 +1,83 @@
+.edit{
+    margin-top: 50px;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.edit .same .component{
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.edit .same-form .btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.cancel-btn{
+    background: crimson;
+    margin-left: 10px;
+}
+
+.cancel-btn:hover{
+    background: rgb(214,51,84);
+}
+
+.updated{
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    color: green;
+}
+
+.new-updated{
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .edit .same-form .btns{
+    justify-content: center;
+}
+}
+
+
+/* upload form */
+
+.edit .upload{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+
+.edit .upload input{
+    align-self: flex-start;
+    width: 210px;
+}
+
+.edit #file_img{
+    width:60px;
+    position: relative;
+    width: 100px;
+    height: 45px;
+    margin-right: 20px;
+    margin-top: 2%;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.edit .upload img{
+    width: 100px;
+    display: flex;
+    height: 75px;
+}
+

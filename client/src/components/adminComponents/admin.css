@@ -1,0 +1,378 @@
+.same-form{
+    box-shadow: 0 0 2px 1px #01527A;
+padding : 10px;
+width: 100%;
+
+}
+
+.admin-title{
+    color: rgb(64, 61, 61);
+    letter-spacing: 0.2rem;
+    font-style: italic ;
+    margin-bottom: 10px;
+}
+
+.same-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.same-form label{
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: rgb(64, 61, 61);
+}
+
+form h4{
+    color: rgb(64, 61, 61);
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    display: none;
+}
+
+form textarea{
+    padding: 7px;
+    border: 1px solid #01527A;
+    outline: none;
+}
+
+form input{
+    padding: 7px;
+    border: 1px solid #01527A;
+    outline: none;
+}
+
+form button{
+    margin-top: 5px;
+    padding: 5px;
+    background: #01527A;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #dfebf1;
+    font-size: 16px;
+    letter-spacing: spacing 0.1rem ;
+    width: 140px;
+}
+
+form button:hover{
+    background: #dfebf1;
+    color:rgb(64, 61, 61)
+}
+
+
+.same-item{
+    margin: 20px 0;
+    border: 1px solid #dfebf1;
+    padding: 10px;
+    position: relative;
+}
+
+.item-delete-tab{
+    background-color: crimson;
+    text-align: center;
+    font-style: italic;
+    color: #dfebf1;
+    font-weight: 400;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+    left: 36%;
+    display: block;
+    transform: translateX(-50%);
+
+}
+
+.same-item .icons{
+    text-align: right;
+    margin : 0 10px;
+    font-size: 18px;
+}
+
+.same-admin .single-education{
+    margin-top: 10px;
+}
+
+.projects-admin .single-project{
+
+    margin: 10px
+
+}
+
+.fa-trash{
+    color: crimson;
+    margin-left: 20px;
+}
+
+.fa-edit{
+    color: green;
+    margin-left: 10px;
+}
+
+.fa-trash:hover , .fa-edit:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* responsive */
+
+@media screen and (min-width:664px) {
+    .same-component{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .same-form{
+        flex: 0 0 300px;
+    }
+
+    .same-item{
+        flex : 1;
+        margin :0;
+        margin-left:  30px; 
+    }
+    
+}
+
+@media screen and (min-width:664px) {
+    
+    .same-form{
+        flex: 0 0 400px;
+    }
+    
+}
+
+
+/* education admin */
+
+
+.same-admin{
+    margin-bottom: 5px;
+}
+
+.same-admin .single-education p{
+    color: #dfebf1;
+}
+
+.same-admin .single-skill p{
+    color: #dfebf1;
+}
+
+/* 
+projects */
+
+
+.projects-admin  .single-project-img{
+    width: 100%;
+    height: 100%;
+}
+
+.projects-admin  .single-project-img img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width:574px){
+    .projects-admin .single-project-img{
+        width: 100%;
+        height: 350px;
+    }
+    
+    .projects-admin .single-project-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:574px){
+
+    .projects-admin .single-project{
+        display: block;
+    }
+    .projects-admin .single-project-img{
+        width: 275px;
+        height: 180px;
+    }
+    
+    .projects-admin .single-project-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .single-project-info{
+        flex:1;
+    }
+}
+
+@media screen and (min-width:574px){
+
+    .projects-admin .single-project-img{
+       width: 150px;
+       height: 150px;
+    }
+    .projects-admin .single-project-img img{
+        width: 150px;
+        height: 100%;
+    }
+
+    .projects-admin .single-project{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* upload */
+
+.upload{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+
+.upload input{
+    align-self: flex-start;
+    width: 200px;
+}
+
+#file_img{
+
+    position: relative;
+    width: 115px;
+    height: 45px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.upload img{
+    width: 115px;
+    display: block;
+    height: 90px;
+}
+
+#file_img span{
+    position:absolute;
+    top: 10px;
+    right: -7px;
+    cursor: pointer;
+    color: crimson;
+    background-color: #dfebf1;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/* ............end of projects admin */
+
+
+/* start of achievements */
+
+
+.achievements-admin  .single-achievement-img{
+    width: 100%;
+    height: 100%;
+}
+
+.achievements-admin  .single-achievement-img img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width:574px){
+    .achievements-admin .single-achievement-img{
+        width: 100%;
+        height: 350px;
+    }
+    
+    .achievements-admin .single-achievement-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:574px){
+
+    .achievements-admin .single-achievement{
+        display: block;
+    }
+    .achievements-admin .single-achievement-img{
+        width: 275px;
+        height: 180px;
+    }
+    
+    .achievements-admin .single-achievement-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .single-achievement-info{
+        flex:1;
+    }
+}
+
+@media screen and (min-width:574px){
+
+    .achievements-admin .single-achievement-img{
+       width: 150px;
+       height: 150px;
+    }
+    .achievements-admin .single-achievement-img img{
+        width: 150px;
+        height: 100%;
+    }
+
+    .achievements-admin .single-achievement{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* upload */
+
+.upload{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+
+.upload input{
+    align-self: flex-start;
+    width: 200px;
+}
+
+#file_img{
+
+    position: relative;
+    width: 115px;
+    height: 45px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.upload img{
+    width: 115px;
+    display: block;
+    height: 90px;
+}
+
+#file_img span{
+    position:absolute;
+    top: 10px;
+    right: -7px;
+    cursor: pointer;
+    color: crimson;
+    background-color: #dfebf1;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+/*..... end of achievement admin....... */
+
+
