@@ -51,7 +51,7 @@ const Header = () => {
           </h1>
         </div> */}
         <div className="cv">
-          <span><b>Cv:</b> <a href="https://drive.google.com/file/d/1JTkBizyMkTVrflSrTh5blb6SBoWivRrb/view?usp=sharing" target="_blank" rel="noreferrer"><i className="fas fa-file-pdf"></i></a></span>
+          <span><b>Cv:</b> <a href="https://drive.google.com/file/d/1rVVracuNwpQqXdntaf7-7zDC3x-27joB/view?usp=sharing" target="_blank" rel="noreferrer"><i className="fas fa-file-pdf"></i></a></span>
         </div>
         </div>
         <div className="personalInfo">
